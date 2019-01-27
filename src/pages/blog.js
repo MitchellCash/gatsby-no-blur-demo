@@ -7,11 +7,11 @@ export default ({ data }) => {
     <Layout>
       <div style={{ padding: '2rem' }}>
         <div>
-          <h1 class="display-4">Blog</h1>
+          <h1>Blog</h1>
         </div>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
-            <h6 className="text-muted mb-2"><small>{node.frontmatter.date}</small></h6>
+            <h6><small>{node.frontmatter.date}</small></h6>
             <Link to={node.fields.slug}>
               <h1>{node.frontmatter.title}</h1>
             </Link>

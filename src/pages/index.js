@@ -6,7 +6,7 @@ import Layout from '../layout/layout'
 export default ({ data }) => (
   <Layout>
     <div style={{ maxWidth: '400px', margin: 'auto' }}>
-      <Img fluid={data.file.childImageSharp.fluid} className="rounded-circle" />
+      <Img fluid={data.file.childImageSharp.fluid} />
     </div>
   </Layout>
 )
