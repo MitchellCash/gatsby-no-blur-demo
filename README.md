@@ -1,9 +1,9 @@
-# Welcome to MitchellCash.com's Codebase
+# gastby-no-blur-demo
 
-Current Build Status: [![Build Status](https://travis-ci.com/MitchellCash/MitchellCash.com.svg?branch=master)](https://travis-ci.com/MitchellCash/MitchellCash.com)
+Live Site: [gatsby-no-blur-demo.netlify.com](https://gatsby-no-blur-demo.netlify.com/)
 
-Current Known Vulnerabilities: [![Known Vulnerabilities](https://snyk.io/test/github/mitchellcash/mitchellcash.com/badge.svg)](https://snyk.io/test/github/mitchellcash/mitchellcash.com)
+## Description
 
-Live Site: [MitchellCash.com](https://mitchellcash.com)
+This is just a demo repo to highlight an issue in the `gatsby-remark-images` package.
 
-Report problems or help improve the site by opening a [new issue](https://github.com/mitchellcash/mitchellcash.com/issues/new) or [pull request](https://github.com/mitchellcash/mitchellcash.com/compare).
+Issue logged [here](https://github.com/gatsbyjs/gatsby/issues/11280).
